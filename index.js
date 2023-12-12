@@ -12,7 +12,7 @@ app.get("/image", (req, res) => {
   res.send(image);
 });
 
-app.get("/", function (req, res) {
+app.get("/", (req, res) => {
   res.send(".public/index.html");
 });
 app.listen(PORT, () => {
