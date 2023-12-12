@@ -13,7 +13,7 @@ app.get("/image", (req, res) => {
 });
 
 app.get("/", function (req, res) {
-  res.send("/index.html");
+  res.send(".public/index.html");
 });
 app.listen(PORT, () => {
   console.log("Server is running in port " + PORT);
